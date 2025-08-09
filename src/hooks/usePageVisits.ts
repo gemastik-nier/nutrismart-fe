@@ -12,7 +12,7 @@ const usePageVisits = () => {
     const visitsCollectionRef = collection(db, 'visits');
     
     const logVisit = async () => {
-      const sessionKey = 'NutriCare-visit-logged';
+      const sessionKey = 'NutriSmart-visit-logged';
       if (sessionStorage.getItem(sessionKey)) {
         return;
       }

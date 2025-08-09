@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadataStatisticBerat: Metadata = {
-    title: 'Track Berat Badan | NutriCare',
-    description: 'Track Berat Badan page NutriCare app',
+    title: 'Track Berat Badan | NutriSmart',
+    description: 'Track Berat Badan page NutriSmart app',
     icons: "/assets/img/logo.png",
     openGraph: {
-      title: 'Track Berat Badan | NutriCare',
-      description: 'Track Berat Badan NutriCare app',
+      title: 'Track Berat Badan | NutriSmart',
+      description: 'Track Berat Badan NutriSmart app',
     }
 }
   

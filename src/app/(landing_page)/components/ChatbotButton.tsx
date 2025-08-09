@@ -29,7 +29,7 @@ export function ChatbotButton({ isOpen, toggleChat }: ChatbotButtonProps) {
   
   // Stop pulsing if user already interacted with chat
   useEffect(() => {
-    const hasInteracted = localStorage.getItem('NutriCare-chat-interacted');
+    const hasInteracted = localStorage.getItem('NutriSmart-chat-interacted');
     if (hasInteracted) {
       setIsPulsing(false);
     }
@@ -37,7 +37,7 @@ export function ChatbotButton({ isOpen, toggleChat }: ChatbotButtonProps) {
   
   const handleClick = () => {
     setIsPulsing(false);
-    localStorage.setItem('NutriCare-chat-interacted', 'true');
+    localStorage.setItem('NutriSmart-chat-interacted', 'true');
     toggleChat();
   };
 

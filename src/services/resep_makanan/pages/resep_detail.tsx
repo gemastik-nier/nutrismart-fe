@@ -28,17 +28,17 @@ export async function generateMetadata({ params }: ResepMakananDetailProps): Pro
   
   if (!recipe) {
     return {
-      title: "Resep Tidak Ditemukan | NutriCare",
+      title: "Resep Tidak Ditemukan | NutriSmart",
       description: "Resep yang Anda cari tidak ditemukan",
     };
   }
   
   return {
-    title: `${recipe.name} | Resep Makanan NutriCare`,
+    title: `${recipe.name} | Resep Makanan NutriSmart`,
     description: recipe.description.substring(0, 160),
     icons: "/assets/img/logo.png",
     openGraph: {
-      title: `${recipe.name} | Resep Makanan NutriCare`,
+      title: `${recipe.name} | Resep Makanan NutriSmart`,
       description: recipe.description.substring(0, 160),
       images: [recipe.image],
     },

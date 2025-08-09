@@ -17,11 +17,11 @@ export default function ScanDetailResult() {
 }
 
 export const metadataScanDetailResult: Metadata = {
-  title: "Scan Makanan | NutriCare",
-  description: "Scan Makanan page NutriCare app",
+  title: "Scan Makanan | NutriSmart",
+  description: "Scan Makanan page NutriSmart app",
   icons: "/assets/img/logo.png",
   openGraph: {
-    title: "Scan Makanan | NutriCare",
-    description: "Scan Makanan NutriCare app",
+    title: "Scan Makanan | NutriSmart",
+    description: "Scan Makanan NutriSmart app",
   },
 };

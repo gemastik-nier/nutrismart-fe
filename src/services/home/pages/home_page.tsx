@@ -20,12 +20,12 @@ import { fetchHomePageData } from '../data/homeApi';
 import { getDummyNutritionData } from '@/services/nutrition/data/user-nutrition';
 
 export const metadataHome: Metadata = {
-  title: 'Home | NutriCare',
-  description: 'Homepage NutriCare app',
+  title: 'Home | NutriSmart',
+  description: 'Homepage NutriSmart app',
   icons: "/assets/img/logo.png",
   openGraph: {
-    title: 'Home | NutriCare',
-    description: 'Homepage NutriCare app',
+    title: 'Home | NutriSmart',
+    description: 'Homepage NutriSmart app',
   }
 }
 
@@ -62,7 +62,7 @@ export default async function Home({
   return (
     <AppMobileLayout>
       <Head  >
-        <title>Home | NutriCare</title>
+        <title>Home | NutriSmart</title>
       </Head>
       <div className="w-full relative flex flex-col outfit-font pb-20">
         

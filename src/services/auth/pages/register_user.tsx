@@ -5,12 +5,12 @@ import LinkAPP from "@/components/util/link";
 import LoginGoogleButton from "../components/login_google_button";
 
 export const metadataRegisterUser: Metadata = {
-  title: 'Register | NutriCare',
-  description: 'Register page NutriCare app',
+  title: 'Register | NutriSmart',
+  description: 'Register page NutriSmart app',
   icons: "/assets/img/logo.png",
   openGraph: {
-    title: 'Register | NutriCare',
-    description: 'Register page NutriCare app',
+    title: 'Register | NutriSmart',
+    description: 'Register page NutriSmart app',
   }
 }
 

@@ -49,11 +49,11 @@ export default function ResepMakananPerHari() {
 }
 
 export const metadataResepMakananPerhari: Metadata = {
-  title: "Resep Makanan | NutriCare",
-  description: "Resep Makanan page NutriCare app",
+  title: "Resep Makanan | NutriSmart",
+  description: "Resep Makanan page NutriSmart app",
   icons: "/assets/img/logo.png",
   openGraph: {
-    title: "Resep Makanan | NutriCare",
-    description: "Resep Makanan NutriCare app",
+    title: "Resep Makanan | NutriSmart",
+    description: "Resep Makanan NutriSmart app",
   },
 };

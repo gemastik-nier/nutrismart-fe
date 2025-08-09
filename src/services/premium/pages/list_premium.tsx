@@ -184,7 +184,7 @@ export default function ListPremium() {
         
         <div className="px-4 pb-20">
           <p className="text-center text-teal-500 mb-6">
-            Dapatkan pengalaman terbaik dalam mengontrol kesehatan Anda dengan NutriCare
+            Dapatkan pengalaman terbaik dalam mengontrol kesehatan Anda dengan NutriSmart
           </p>
           
           {/* Show current subscription if exists */}
@@ -218,11 +218,11 @@ export default function ListPremium() {
 }
 
 export const metadataListPremium: Metadata = {
-  title: "Premium Plan | NutriCare",
-  description: "Premium Plan page NutriCare app",
+  title: "Premium Plan | NutriSmart",
+  description: "Premium Plan page NutriSmart app",
   icons: "/assets/img/logo.png",
   openGraph: {
-    title: "Premium Plan | NutriCare",
-    description: "Premium Plan NutriCare app",
+    title: "Premium Plan | NutriSmart",
+    description: "Premium Plan NutriSmart app",
   },
 }; 

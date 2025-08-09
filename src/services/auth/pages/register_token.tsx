@@ -7,12 +7,12 @@ import { ButtonLogout } from '@/services/profile/components/button_logout';
 import LinkAPP from '@/components/util/link';
 
 export const metadataToken: Metadata = {
-  title: 'Token | NutriCare',
-  description: 'Token page NutriCare app',
+  title: 'Token | NutriSmart',
+  description: 'Token page NutriSmart app',
   icons: "/assets/img/logo.png",
   openGraph: {
-    title: 'Token | NutriCare',
-    description: 'Token page NutriCare app',
+    title: 'Token | NutriSmart',
+    description: 'Token page NutriSmart app',
   }
 }
 

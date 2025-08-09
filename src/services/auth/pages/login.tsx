@@ -6,12 +6,12 @@ import { Toaster } from "sonner";
 import LoginGoogleButton from "../components/login_google_button";
 
 export const metadataLoginUser: Metadata = {
-  title: 'Login | NutriCare',
-  description: 'Login page NutriCare app',
+  title: 'Login | NutriSmart',
+  description: 'Login page NutriSmart app',
   icons: "/assets/img/logo.png",
   openGraph: {
-    title: 'Login | NutriCare',
-    description: 'Login page NutriCare app',
+    title: 'Login | NutriSmart',
+    description: 'Login page NutriSmart app',
   }
 }
 

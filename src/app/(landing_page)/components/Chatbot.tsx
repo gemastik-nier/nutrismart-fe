@@ -11,7 +11,7 @@ export function Chatbot() {
 
   // Show greeting bubble after a delay when user first visits
   useEffect(() => {
-    const hasSeenGreeting = localStorage.getItem('NutriCare-greeting-seen');
+    const hasSeenGreeting = localStorage.getItem('NutriSmart-greeting-seen');
     
     if (!hasSeenGreeting) {
       const timer = setTimeout(() => {
@@ -25,7 +25,7 @@ export function Chatbot() {
   const toggleChat = () => {
     if (showGreeting) {
       setShowGreeting(false);
-      localStorage.setItem('NutriCare-greeting-seen', 'true');
+      localStorage.setItem('NutriSmart-greeting-seen', 'true');
     }
     
     setIsOpen(prev => !prev);
@@ -35,7 +35,7 @@ export function Chatbot() {
   useEffect(() => {
     if (isOpen && showGreeting) {
       setShowGreeting(false);
-      localStorage.setItem('NutriCare-greeting-seen', 'true');
+      localStorage.setItem('NutriSmart-greeting-seen', 'true');
     }
   }, [isOpen, showGreeting]);
 
@@ -55,7 +55,7 @@ export function Chatbot() {
             transition={{ type: "spring", stiffness: 500, damping: 30 }}
           >
             <div className="text-sm font-medium">
-              <p>Hi! Ada yang bisa Nutri bantu tentang produk NutriCare?</p>
+              <p>Hi! Ada yang bisa Nutri bantu tentang produk NutriSmart?</p>
               <button 
                 onClick={toggleChat}
                 className="mt-2 text-primary font-bold hover:underline"
