@@ -35,7 +35,7 @@ export default function RegisterToken() {
         </p>
         <RegisterTokenForm />
         <p className="text-center mt-4 text-sm">
-          Gunakan token TRIAL123 atau TRIAL1234
+          Gunakan token GEMASTIK18, COBAGEMASTIK, GEMASTIK123, GEMASTIK1234, GEMASTIK999, atau GENASTIK999
         </p>
         {/* <p className="text-center mt-1 text-sm">
           atau beli premium <LinkAPP href="/premium" className="text-button underline">di sini</LinkAPP>
