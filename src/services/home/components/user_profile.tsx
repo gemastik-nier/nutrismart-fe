@@ -85,19 +85,20 @@ const UserProfile: React.FC<UserProfileProps> = ({
           </div>
           
           {/* Premium Badge */}
-          <div className="flex items-center">
+          <div className='w-2 h-2 bg-white'></div>
+          {/* <div className="flex items-center">
             {isPro ? (
-              <LinkAPP href="/app/premium" className="flex items-center gap-1 px-3 py-1 bg-secondaryLight rounded-full border-2 border-black shadow-neobrutalism-sm">
-                <Crown size={16} className='fill-black' />
-                <span className="font-bold text-sm">PRO</span>
-              </LinkAPP>
+              // <LinkAPP href="/app/premium" className="flex items-center gap-1 px-3 py-1 bg-secondaryLight rounded-full border-2 border-black shadow-neobrutalism-sm">
+              //   <Crown size={16} className='fill-black' />
+              //   <span className="font-bold text-sm">PRO</span>
+              // </LinkAPP>
             ) : (
-              <LinkAPP href="/app/premium" className="flex items-center gap-1 px-3 py-1 bg-gray-100 rounded-full border-2 border-black shadow-neobrutalism-sm">
-                <Crown size={16}  />
-                <span className="font-bold text-sm text-gray-500">FREE</span>
-              </LinkAPP>
+              // <LinkAPP href="/app/premium" className="flex items-center gap-1 px-3 py-1 bg-gray-100 rounded-full border-2 border-black shadow-neobrutalism-sm">
+              //   <Crown size={16}  />
+              //   <span className="font-bold text-sm text-gray-500">FREE</span>
+              // </LinkAPP>
             )}
-          </div>
+          </div> */}
         </div>
       {/* <div className="flex w-full px-4 items-center z-10">
         <img src="/assets/img/home.png" className="w-1/2" alt="avatar" />
